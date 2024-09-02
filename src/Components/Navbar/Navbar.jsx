@@ -1,4 +1,4 @@
-import Logo from "../../assets/women/logo.png";
+import Logo from "../../assets/women/logo1.png";
 import { IoMdSearch } from "react-icons/io";
 import { FaCartShopping } from "react-icons/fa6";
 import { FaCaretDown } from "react-icons/fa";
@@ -43,11 +43,6 @@ const DropdownLinks = [
     name: "Best Selling",
     link: "/#",
   },
-  {
-    id: 3,
-    name: "Top Rated",
-    link: "/#",
-  },
 ];
 
 // eslint-disable-next-line react/prop-types
@@ -59,8 +54,8 @@ const Navbar = ({ handleOrderPopup }) => {
         <div className="container flex justify-between items-center">
           <div>
             <a href="#" className="font-bold text-2xl sm:text-3xl flex gap-2">
-              <img src={Logo} alt="Logo" className="w-10" />
-              Shopsy
+              <img src={Logo} alt="Logo" className="w-12" />
+              Online Bazar
             </a>
           </div>
 
